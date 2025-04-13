@@ -20,7 +20,7 @@ class TechStack extends StatelessWidget {
               ? const EdgeInsets.only(left: 25) // Same padding for mobile & tablet
               : EdgeInsets.zero, // No extra padding for desktop
           child: Text(
-            "Essential Tools & Frameworks I use",
+            "Tools & Frameworks",
             style: isMobileOrTablet? const TextStyle(
               fontSize: 26,
               fontWeight: FontWeight.w400,

@@ -16,6 +16,7 @@ class _ServiceCardState extends State<_ServiceCard> {
   Widget build(BuildContext context) {
     var theme = Theme.of(context);
     return InkWell(
+      mouseCursor: SystemMouseCursors.basic,
       hoverColor: Colors.transparent,
       splashColor: Colors.transparent,
       highlightColor: Colors.transparent,
