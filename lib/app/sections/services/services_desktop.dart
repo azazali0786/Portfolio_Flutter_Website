@@ -15,7 +15,7 @@ class ServiceDesktopState extends State<ServiceDesktop> {
 
     return Container(
       padding: EdgeInsets.symmetric(horizontal: width / 8)
-          .copyWith(bottom: height * 0.2),
+          .copyWith(bottom: height * 0.02),
       child: Column(
         children: [
           const CustomSectionHeading(text: '\nWhat I can do?'),
@@ -35,7 +35,7 @@ class ServiceDesktopState extends State<ServiceDesktop> {
                 )
                 .toList(),
           ),
-          Space.y(4.w)!,
+          Space.y(8.w)!,
           const TechStack(),
         ],
       ),

@@ -57,7 +57,7 @@ class TechStack extends StatelessWidget {
                 spacing: 2.w,
                 children: TechUtils.techIcons
                     .map(
-                      (icon) => SvgPicture.network(icon,height: 50,width: 50,),
+                      (icon) => SvgPicture.network(icon,height: 50,width: 50,allowDrawingOutsideViewBox: true,),
                     )
                     .toList(),
               ),
@@ -73,7 +73,7 @@ class TechStack extends StatelessWidget {
                         .map(
                           (icon) => Padding(
                             padding: EdgeInsets.symmetric(horizontal: 3.w),
-                            child: SvgPicture.network(icon,height: 50,width: 50,),
+                            child: SvgPicture.network(icon,height: 50,width: 50,allowDrawingOutsideViewBox: true,),
                           ),
                         )
                         .toList(),

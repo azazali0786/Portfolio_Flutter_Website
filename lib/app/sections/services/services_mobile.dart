@@ -33,7 +33,7 @@ class ServiceMobile extends StatelessWidget {
             enableInfiniteScroll: false,
           ),
         ),
-        Space.y(3.w)!,
+        Space.y(8.w)!,
         const TechStack(),
       ],
     );

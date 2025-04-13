@@ -16,6 +16,14 @@ class ProjectUtils {
 List<ProjectUtils> projectUtils = [
   
   ProjectUtils(
+    banners: 'assets/imgs/07.png',
+    icons: 'assets/imgs/react.png',
+    titles: 'Expense-Tracker',
+    description:
+        'Fully functional, responsive React-based Expense Tracker website, source code is also available, check below.',
+    links: 'https://azaz-ali-expense-tracker-4uej.vercel.app',
+  ),
+  ProjectUtils(
     banners: 'assets/imgs/05.png',
     icons: 'assets/imgs/flutter.png',
     titles: 'Awesome Alive Service App',
@@ -29,6 +37,6 @@ List<ProjectUtils> projectUtils = [
     titles: 'Alive Shop',
     description:
         'This is a product shopping website UI built using React, source code is also available, check below.',
-    links: 'https://67c8a965acee1fa5f96ca753--alive-shop.netlify.app/',
+    links: 'https://67c8a965acee1fa5f96ca753--alive-shop-azaz.netlify.app/',
   ),
 ];
